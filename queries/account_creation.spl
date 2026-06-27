@@ -1,0 +1,5 @@
+# Windows Security Event ID 4720 — User Account Created
+
+index=main EventID=4720
+| table _time, ComputerName, SubjectUserName, TargetUserName, TargetSid
+| sort _time

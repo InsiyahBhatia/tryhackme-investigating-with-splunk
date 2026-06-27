@@ -1,0 +1,21 @@
+# ioc_extraction.spl — IOC Extraction Queries
+
+# Locate the encoded PowerShell payload (full Payload field)
+index=main EventID=4103 Payload="* -enc *"
+| table _time, Hostname, UserID, Payload
+
+# Search for network indicators (URLs, IPs)
+index=main EventID=4103 Payload="*http*"
+| table _time, Hostname, Payload
+
+# Search for WebClient download activity
+index=main EventID=4103 Payload="*DownloadData*" OR Payload="*DownloadString*"
+| table _time, Hostname, Payload
+
+# Identify User-Agent strings
+index=main EventID=4103 Payload="*Mozilla*"
+| table _time, Hostname, Payload
+
+# Search for cookie values
+index=main EventID=4103 Payload="*Cookie*"
+| table _time, Hostname, Payload

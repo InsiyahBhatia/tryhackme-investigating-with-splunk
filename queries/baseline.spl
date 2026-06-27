@@ -1,0 +1,14 @@
+# Baseline — verify ingestion and enumerate events
+
+# Total event count
+index=main
+| stats count
+
+# All unique Event IDs with counts
+index=main
+| stats count by EventID
+| sort - count
+
+# All sourcetypes
+index=main
+| stats count by sourcetype

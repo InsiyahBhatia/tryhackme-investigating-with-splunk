@@ -1,0 +1,10 @@
+# Windows Security Event ID 4688 — Process Creation
+
+index=main EventID=4688
+| table _time, ComputerName, SubjectUserName, NewProcessName, CommandLine
+| sort _time
+
+# Explicit credential usage — Event ID 4648
+index=main EventID=4648
+| table _time, ComputerName, SubjectUserName, TargetUserName, ProcessName
+| sort _time

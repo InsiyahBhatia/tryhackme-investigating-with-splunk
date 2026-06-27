@@ -1,0 +1,13 @@
+# Windows PowerShell Operational Log — Event ID 4103
+
+index=main EventID=4103
+| table _time, Hostname, UserID, Payload
+| sort _time
+
+# Filter to suspicious host
+index=main Hostname="James.browne" EventID=4103
+| stats count
+
+# Search for encoded payloads
+index=main EventID=4103 Payload="*-enc*"
+| table _time, Hostname, Payload

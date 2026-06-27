@@ -1,0 +1,5 @@
+# Windows Security Event ID 4657 — Registry Value Modification
+
+index=main EventID=4657
+| table _time, ComputerName, SubjectUserName, ObjectName, ObjectValueName, OldValue, NewValue
+| sort _time
