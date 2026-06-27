@@ -22,11 +22,11 @@ Techniques observed during the Splunk investigation, mapped to the MITRE ATT&CK 
 
 | Technique | Evidence |
 |-----------|----------|
-| **PowerShell (T1059.001)** | ![PowerShell Search](../screenshots/20-PowerShell-Event-Search.png) |
-| **Create Account (T1136)** | ![Account Creation](../screenshots/07-New-User-Account-Query.png) |
-| **Modify Registry (T1112)** | ![Registry Modification](../screenshots/11-Registry-Modification-Search.png) |
-| **Obfuscated Files (T1027)** | ![Encoded PowerShell](../screenshots/23-Encoded-PowerShell-Search.png) |
-| **Ingress Tool Transfer (T1105)** | ![C2 URL](../screenshots/33-C2-URL-Extraction.png) |
+| **PowerShell (T1059.001)** | ![PowerShell Search](../screenshots/11-PowerShell-Event-Search.png) |
+| **Create Account (T1136)** | ![Account Creation](../screenshots/05-New-User-Account-Query.png) |
+| **Modify Registry (T1112)** | ![Registry Modification](../screenshots/07-Registry-Modification-Search.png) |
+| **Obfuscated Files (T1027)** | ![Encoded PowerShell](../screenshots/13-Encoded-PowerShell-Search.png) |
+| **Ingress Tool Transfer (T1105)** | ![C2 URL](../screenshots/20-C2-URL-Extraction.png) |
 
 ## Reference
 

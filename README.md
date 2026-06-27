@@ -87,8 +87,6 @@ index=main
 |---|-----------|
 | 03 | ![EventCode Search](screenshots/03-EventCode-Search.png) |
 | 04 | ![EventCode Statistics](screenshots/04-EventCode-Statistics.png) |
-| 05 | ![EventID Enumeration Part 1](screenshots/05-EventID-Enumeration-Part1.png) |
-| 06 | ![EventID Enumeration Part 2](screenshots/06-EventID-Enumeration-Part2.png) |
 
 ---
 
@@ -107,10 +105,8 @@ index=main EventID=4720
 
 | # | Screenshot |
 |---|-----------|
-| 07 | ![New User Account Query](screenshots/07-New-User-Account-Query.png) |
-| 08 | ![New User Account Details](screenshots/08-New-User-Account-Details.png) |
-| 09 | ![Event Field Analysis](screenshots/09-Event-Field-Analysis.png) |
-| 10 | ![Windows Security Event](screenshots/10-Windows-Security-Event.png) |
+| 05 | ![New User Account Query](screenshots/05-New-User-Account-Query.png) |
+| 06 | ![New User Account Details](screenshots/06-New-User-Account-Details.png) |
 
 ---
 
@@ -127,10 +123,8 @@ index=main EventID=4657
 
 | # | Screenshot |
 |---|-----------|
-| 11 | ![Registry Modification Search](screenshots/11-Registry-Modification-Search.png) |
-| 12 | ![Registry Modification Event](screenshots/12-Registry-Modification-Event.png) |
-| 13 | ![Persistence Registry Query](screenshots/13-Persistence-Registry-Query.png) |
-| 14 | ![Registry Persistence Details](screenshots/14-Registry-Persistence-Details.png) |
+| 07 | ![Registry Modification Search](screenshots/07-Registry-Modification-Search.png) |
+| 08 | ![Registry Persistence Details](screenshots/08-Registry-Persistence-Details.png) |
 
 ---
 
@@ -147,11 +141,8 @@ index=main EventID=4648
 
 | # | Screenshot |
 |---|-----------|
-| 15 | ![Account Creation Correlation](screenshots/15-Account-Creation-Correlation.png) |
-| 16 | ![User Account Event Details](screenshots/16-User-Account-Event-Details.png) |
-| 17 | ![EventID 4720 Investigation](screenshots/17-EventID-4720-Investigation.png) |
-| 18 | ![EventID 4720 Statistics](screenshots/18-EventID-4720-Statistics.png) |
-| 19 | ![Target Username Analysis](screenshots/19-Target-Username-Analysis.png) |
+| 09 | ![Account Creation Correlation](screenshots/09-Account-Creation-Correlation.png) |
+| 10 | ![EventID 4720 Investigation](screenshots/10-EventID-4720-Investigation.png) |
 
 ---
 
@@ -171,11 +162,9 @@ index=main Hostname="James.browne" EventID=4103
 
 | # | Screenshot |
 |---|-----------|
-| 20 | ![PowerShell Event Search](screenshots/20-PowerShell-Event-Search.png) |
-| 21 | ![Hostname Investigation](screenshots/21-Hostname-Investigation.png) |
-| 22 | ![PowerShell Operational Logs](screenshots/22-PowerShell-Operational-Logs.png) |
-| 23 | ![Encoded PowerShell Search](screenshots/23-Encoded-PowerShell-Search.png) |
-| 24 | ![EventID 4103 Results](screenshots/24-EventID-4103-Results.png) |
+| 11 | ![PowerShell Event Search](screenshots/11-PowerShell-Event-Search.png) |
+| 12 | ![PowerShell Operational Logs](screenshots/12-PowerShell-Operational-Logs.png) |
+| 13 | ![Encoded PowerShell Search](screenshots/13-Encoded-PowerShell-Search.png) |
 
 ---
 
@@ -211,14 +200,12 @@ flowchart TD
 
 | # | Screenshot |
 |---|-----------|
-| 25 | ![PowerShell Script Extraction](screenshots/25-PowerShell-Script-Extraction.png) |
-| 26 | ![Encoded Payload Review](screenshots/26-Encoded-Payload-Review.png) |
-| 27 | ![CyberChef Initial Decoding](screenshots/27-CyberChef-Initial-Decoding.png) |
-| 28 | ![Base64 UTF16 Decoding](screenshots/28-Base64-UTF16-Decoding.png) |
-| 29 | ![Decoded Script Part 1](screenshots/29-Decoded-PowerShell-Script-Part1.png) |
-| 30 | ![Decoded Script Part 2](screenshots/30-Decoded-PowerShell-Script-Part2.png) |
-| 31 | ![Decoded Script Part 3](screenshots/31-Decoded-PowerShell-Script-Part3.png) |
-| 32 | ![Decoded Script Part 4](screenshots/32-Decoded-PowerShell-Script-Part4.png) |
+| 14 | ![PowerShell Script Extraction](screenshots/14-PowerShell-Script-Extraction.png) |
+| 15 | ![Encoded Payload Review](screenshots/15-Encoded-Payload-Review.png) |
+| 16 | ![CyberChef Initial Decoding](screenshots/16-CyberChef-Initial-Decoding.png) |
+| 17 | ![Base64 UTF16 Decoding](screenshots/17-Base64-UTF16-Decoding.png) |
+| 18 | ![Decoded Script Part 1](screenshots/18-Decoded-PowerShell-Script-Part1.png) |
+| 19 | ![Decoded Script Part 2](screenshots/19-Decoded-PowerShell-Script-Part2.png) |
 
 ---
 
@@ -228,7 +215,7 @@ flowchart TD
 
 | # | Screenshot |
 |---|-----------|
-| 33 | ![C2 URL Extraction](screenshots/33-C2-URL-Extraction.png) |
+| 20 | ![C2 URL Extraction](screenshots/20-C2-URL-Extraction.png) |
 
 See [`docs/iocs.md`](docs/iocs.md) for the full IOC list.
 
@@ -292,7 +279,7 @@ tryhackme-investigating-with-splunk/
 │   ├── 01-Index-Verification.png
 │   ├── 02-Sourcetype-Verification.png
 │   ├── ...
-│   └── 33-C2-URL-Extraction.png
+│   └── 20-C2-URL-Extraction.png
 ├── queries/
 │   ├── baseline.spl
 │   ├── account_creation.spl

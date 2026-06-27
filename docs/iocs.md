@@ -2,7 +2,7 @@
 
 Extracted from the decoded PowerShell payload discovered in Event ID 4103 logs.
 
-![C2 URL Extraction](../screenshots/33-C2-URL-Extraction.png)
+![C2 URL Extraction](../screenshots/20-C2-URL-Extraction.png)
 
 ## Network Indicators
 
